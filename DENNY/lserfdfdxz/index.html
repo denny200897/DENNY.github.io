@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>DENNY的網站</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/templatemo-blue.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<style>
+		p {
+			color: black;
+		}
+	</style>
+	
+
+	<title>返回顶部</title>
+    <style>
+        .scroll-to-top {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-size: 24px;
+            color: #888;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .scroll-to-top.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+
+    <!-- 其他网页内容 -->
+
+    <div class="scroll-to-top" onclick="scrollToTop()">&#8593;</div>
+
+    <script>
+        window.addEventListener('scroll', showScrollButton);
+
+        function showScrollButton() {
+            var scrollButton = document.querySelector('.scroll-to-top');
+            if (window.pageYOffset > 20) {
+                scrollButton.classList.add('show');
+            } else {
+                scrollButton.classList.remove('show');
+            }
+        }
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+ 
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+<!-- preloader section -->
+<div class="preloader">
+	<div class="sk-spinner sk-spinner-wordpress">
+       <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- header section -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<hr>
+				<h1 class="tm-title bold shadow">Hi, I am DENNY</h1>
+				<h1 class="white bold shadow">歡迎來到我的網站</h1>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- about and skills section -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="about">
+				<h3 class="accent">我的簡介</h3>
+				<h2>DENNY:</h2>
+				<p>我是來自臺灣的DENNY，目前國中二年級，喜歡寫程式，也喜歡研究網路安全，目前會HTML、CSS基礎、還有KALI.</p>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12">
+			<div class="skills">
+				<h2 class="white">技能</h2>
+				<strong>HTML/CSS</strong>
+				<span class="pull-right">50%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+					</div>
+				<strong>PYTHON</strong>
+				<span class="pull-right">20%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+					</div>
+				<strong>KALI</strong>
+				<span class="pull-right">40%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- contact and experience -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-12">
+			<div class="contact">
+				<h2>聯絡資訊</h2>
+					<p><i class="fa fa-envelope"></i>dennyjick@gmail.com</p>
+					<p><i class="fa fa-globe"></i> XXX</p>
+			</div>
+		</div>
+		
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright &copy; 2023.DENNY All rights reserved.</p>
+				<ul class="social-icons">
+				    <li><a href="https://zh-tw.facebook.com/" class="fa fa-facebook" target="_blank"></a></li>
+					<li><a href="#" class="fa fa-github"></a></li>
+					<li><a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/custom.js"></script>
+
+<style>
+.copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
+</style>
+<div class="copyrights" id="links20210126">
+	Collect from <a href="http://www.cssmoban.com/"  title="网站模板">模板之家</a>
+	<a href="https://www.chazidian.com/"  title="查字典">查字典</a>
+</div>
+
+</body>
+</html>
